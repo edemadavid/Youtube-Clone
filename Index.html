@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/Images/logo.ico" type="image/x-icon">
+   
+    <script src="https://kit.fontawesome.com/cfbd0c9f49.js" crossorigin="anonymous"></script>
+    <title>YouTube</title>
+</head>
+<body>
+
+    <div class="row" id="navSide">
+        <div class="col-2">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp; Home</a>
+                <a href="#"><i class="fas fa-compass"></i> &nbsp;&nbsp;&nbsp; Explore</a>
+                <a href="#"><i class="fas fa-box-open"></i> &nbsp;&nbsp;&nbsp; Subcriptions</a>
+                <hr>
+                <a href="#"><i class="fas fa-book-open"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <a href="#"><i class="fas fa-history"></i> &nbsp;&nbsp;&nbsp; History</a>
+                <a href="#"><i class="far fa-play-circle"></i> &nbsp;&nbsp;&nbsp; Your Videos</a>
+                <a href="#"><i class="far fa-clock"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <a href="#"><i class="far fa-thumbs-up"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <hr>
+                <p class="ml-3 font-weight-bold">Subscription</p>
+                <hr>
+                <a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;&nbsp; Settings</a>
+                <a href="#"><i class="fas fa-flag"></i> &nbsp;&nbsp;&nbsp; Report History</a>
+                <a href="#"><i class="far fa-question-circle"></i> &nbsp;&nbsp;&nbsp; Help</a>
+                <a href="#"><i class="far fa-comment-alt"></i> &nbsp;&nbsp;&nbsp; Send Feedback</a>
+            </div>
+
+            <span onclick="openNav()" class="sidemenu"> &#9776 </span>
+            <img src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto"> 
+
+        </div>
+        
+        <div class="input-group mb-3 col-6 my-2">
+            <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary rounded" type="button" id="button-addon2">Search</button>
+            </div>
+            <div class="mic ml-2">
+                <img src="/SVG/microphone.svg" alt=""  width="20px" >
+            </div>
+        </div>
+
+        <div class=" col-2 offset-2 d-inline-flex my-2 mr-auto float-right">
+            <div class="">
+                <img src="/SVG/camera-retro.svg" alt="" width="20px" >
+            </div>
+            <div>
+                <img src="/SVG/ninedots.svg" alt=""  width="20px" >
+            </div>
+
+            <div class="">
+                <img src="/SVG/bell.svg" alt=""  width="20px" >
+            </div>
+            
+            <div class="identify">
+            <p>D</p>
+            </div>
+        </div>
+    
+        
+    </div>
+   
+
+    <div id="main">
+    
+        <div>
+            <div class="d-inline-flex">
+                
+                <div class="row row1 ml-2">
+                    <a href="#"><i class="fas fa-home fa-2x"></i>Home</a>
+                    <a href="#"><i class="fas fa-compass fa-2x"></i>Explore</a>
+                    <a href="#"><i class="fas fa-box-open fa-2x"></i>Subcriptions</a>
+                    <a href="#"><i class="fas fa-book-open fa-2x"></i>Library</a>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="row row2 pl-5 d-inline-flex">
+                        <div class="rounded-pill tab1 active p-2 m-1 my-auto">All</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Computer Programming</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Walex Bix Nig</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Chill-out mucic</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Text</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Web pages</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Comedies</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Live</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Playlist</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Graphic design</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Lo-fi</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Live</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Playlist</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Graphic design</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Lo-fi</div> 
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div> 
+                    </div>
+                    <div class="row col2row2">
+                        <div class="card-group">
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            
+                    </div>
+
+                    <div class="row col2row3">
+                        <div class="card-group">
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card mr-3">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div class="card-body">
+                                <h5 class="card-title">Vue.Js Documentary</h5>
+                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                              </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+    
+
+    </div>
+    <script src="/js/myscript.js"></script>
+</body>
+</html>

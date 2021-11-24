@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#nav{
+    display: inline-flex;
+    padding: 10px;
+}
+
+/* span{
+    margin-top: 1rem;
+} */
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 1s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    transition: 0.5ms;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* #navSide{
+    transition: margin-left .5s;
+    padding: 5px;
+
+} */
+
+#navSide{
+    display :   flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+
+}
+
+
+.sidemenu{
+    margin-left: 1rem;
+    font-size: 25px; 
+    cursor: pointer
+}
+
+#navSide img{
+    margin: 0 10px;
+}
+
+/* #navSide #search {
+   
+} */
+.mic{
+    border-radius: 50%;
+    background-color: gainsboro;
+    /* margin-left: 10px ; */
+}
+
+.mic img{
+    padding-top: 0.5rem;
+    height: 30px;
+}
+
+
+
+.identify{
+    border-radius: 50%;
+    color: white;
+    background-color: navy;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+.identify p{
+    font-size: larger;
+}
+
+.row1{
+    border-right: 2px solid white;
+    height: 40vh;
+    width: 6rem;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.row1 a{
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    font-size: 0.8rem !important;
+}
+
+.row2{
+    width: 100vw;
+    height: 3vw;
+    /* border-bottom: 0.5px solid rgb(0, 0, 0);
+    border-top: 0.5px solid rgb(0, 0, 0); */
+    background-color: rgb(247, 245, 245);
+}
+
+.tab1{
+    width: auto;
+    height: 4vh;
+    background-color: gray;
+    border: solid 0.5px rgb(117, 117, 117);
+}
+
+.tab2 {
+    width: auto;
+    height: 4vh;
+    background-color: rgb(228, 227, 227);
+    /* border: solid 0.2px rgb(207, 205, 205) */
+}
+
+.col2row2{
+    margin-left: 2rem;
+}
+.card{
+    border: none;
+}
+.card-group{
+    margin-right: 1rem;
+}
+.col2row3{
+    margin-left: 0.5rem;
+}
+
+
+@media screen and (max-height:450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
