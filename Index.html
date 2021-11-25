@@ -16,7 +16,7 @@
 <body>
 
     <div class="row" id="navSide">
-        <div class="col-2">
+        <div class="col-xs-12 col-lg-2">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#"><i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp; Home</a>
@@ -38,11 +38,11 @@
             </div>
 
             <span onclick="openNav()" class="sidemenu"> &#9776 </span>
-            <img src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto"> 
+            <img class="logo" src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto"> 
 
         </div>
         
-        <div class="input-group mb-3 col-6 my-2">
+        <div class="input-group mb-3 col-xs-12 col-lg-5 my-2">
             <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
             <div class="input-group-append">
               <button class="btn btn-outline-secondary rounded" type="button" id="button-addon2">Search</button>
@@ -52,18 +52,18 @@
             </div>
         </div>
 
-        <div class=" col-2 offset-2 d-inline-flex my-2 mr-auto float-right">
-            <div class="">
+        <div class="maindot col-sm-12 col-lg-4 d-inline-flex my-2 mr-auto mx-lg-5">
+            <div class="dot">
                 <img src="/SVG/camera-retro.svg" alt="" width="20px" >
             </div>
-            <div>
+            <div class="dot">
                 <img src="/SVG/ninedots.svg" alt=""  width="20px" >
             </div>
 
-            <div class="">
+            <div class="dot">
                 <img src="/SVG/bell.svg" alt=""  width="20px" >
             </div>
-            
+
             <div class="identify">
             <p>D</p>
             </div>
@@ -79,119 +79,133 @@
             <div class="d-inline-flex">
                 
                 <div class="row row1 ml-2">
-                    <a href="#"><i class="fas fa-home fa-2x"></i>Home</a>
-                    <a href="#"><i class="fas fa-compass fa-2x"></i>Explore</a>
-                    <a href="#"><i class="fas fa-box-open fa-2x"></i>Subcriptions</a>
-                    <a href="#"><i class="fas fa-book-open fa-2x"></i>Library</a>
+                    <a href="#"><i class="fas fa-home fa-2x pt-2"></i>Home</a>
+                    <a href="#"><i class="fas fa-compass fa-2x pt-2"></i>Explore</a>
+                    <a href="#"><i class="fas fa-box-open fa-2x pt-2"></i>Subcriptions</a>
+                    <a href="#"><i class="fas fa-book-open fa-2x pt-2"></i>Library</a>
                 </div>
                 <hr>
                 <div class="row">
                     <div class="row row2 pl-5 d-inline-flex">
-                        <div class="rounded-pill tab1 active p-2 m-1 my-auto">All</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Computer Programming</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Walex Bix Nig</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Chill-out mucic</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Text</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Web pages</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Comedies</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Live</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Playlist</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Graphic design</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Lo-fi</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Live</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Playlist</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Graphic design</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Lo-fi</div> 
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-2 m-1 my-auto">Thrillers</div> 
-                    </div>
-                    <div class="row col2row2">
-                        <div class="card-group">
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
-                              </div>
-                            </div>
-                            
+                        <div class="rounded-pill tab1 active p-lg-2 m-1 my-auto">All</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Computer Programming</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Walex Bix Nig</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Chill-out mucic</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Text</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Web pages</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Comedies</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
+                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
                     </div>
 
-                    <div class="row col2row3">
-                        <div class="card-group">
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="row col2row2">
+                      
+                        <div class="card-group col-lg-12">
+                            <div class="card mr-4 col-md-6 pt-sm-2">
+                                <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               <div class="card-body">
                                 <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
+                                <p class="card-text">Honeypot</p>
                                 <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
                               </div>
                             </div>
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            <div class="card mr-3 ml-2 col-md-6 pt-sm-2">
+                              <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                                <h5 class="card-title">GraphQL: The Documentary</h5>
+                                <p class="card-text">Honeypot</p>
+                                <p class="card-text"><small class="text-muted">2M View - 5 years ago</small></p>
                               </div>
                             </div>
-                            <div class="card mr-3">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card mr-3 ml-2 col-md-6">
+                              <iframe width="390" height="300" src="https://www.youtube.com/embed/5Q2Pc-e-8Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                                <h5 class="card-title">2-HOUR STUDY WITH ME🌦️</h5>
+                                <p class="card-text">Abao in Tokyo</p>
+                                <p class="card-text"><small class="text-muted">15M Views - 2 years ago</small></p>
                               </div>
                             </div>
-                            <div class="card">
-                                <iframe width="450" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card ml-2 col-md-6">
+                              <iframe width="390" height="300" src="https://www.youtube.com/embed/hggEf-a_elg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                               <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Cut Soap</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                                <h5 class="card-title">Chill Lo-Fi Homer Hip-Hop Beats Mix Free Lo Fi Hip Hop Music Mix</h5>
+                                <p class="card-text">McFly Beatsp</p>
+                                <p class="card-text"><small class="text-muted">12M Views - 3 years Ago</small></p>
                               </div>
                             </div>
-                        </div>   
-                    </div>
+                        </div>
+                          
+                    </div>    
+                    <!-- end of First video row -->
+
+
+                    <div class="row col2row2">
+                      
+                      <div class="card-group col-lg-12">
+                          <div class="card mr-4 col-md-6 pt-sm-2">
+                              <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                              <h5 class="card-title">Vue.Js Documentary</h5>
+                              <p class="card-text">Honeypot</p>
+                              <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                            </div>
+                          </div>
+
+                          <div class="card mr-3 ml-2 col-md-6">
+                            <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: The Documentary</h5>
+                              <p class="card-text">Honeypot</p>
+                              <p class="card-text"><small class="text-muted">2M View - 5 years ago</small></p>
+                            </div>
+                          </div>
+                          <div class="card mr-3 ml-2 col-md-6">
+                            <iframe width="390" height="300" src="https://www.youtube.com/embed/5Q2Pc-e-8Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                              <h5 class="card-title">2-HOUR STUDY WITH ME🌦️</h5>
+                              <p class="card-text">Abao in Tokyo</p>
+                              <p class="card-text"><small class="text-muted">15M Views - 2 years ago</small></p>
+                            </div>
+                          </div>
+                          <div class="card ml-2 col-md-6">
+                            <iframe width="390" height="300" src="https://www.youtube.com/embed/hggEf-a_elg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                              <h5 class="card-title">Chill Lo-Fi Homer Hip-Hop Beats Mix Free Lo Fi Hip Hop Music Mix</h5>
+                              <p class="card-text">McFly Beatsp</p>
+                              <p class="card-text"><small class="text-muted">12M Views - 3 years Ago</small></p>
+                            </div>
+                          </div>
+                      </div>
+                        
+                  </div>    
+                  <!-- end of Second row  -->
+
+
+               
+
                 </div>
                 
 
             </div>
-            <div>
+           
 
-            </div>
+
         </div>
     
 
-    </div>
+    </div>  <!-- End Div of Main -->
     <script src="/js/myscript.js"></script>
 </body>
 </html>

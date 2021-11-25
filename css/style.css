@@ -47,18 +47,17 @@
     margin-left: 50px;
 }
 
-/* #navSide{
+#navSide{
     transition: margin-left .5s;
     padding: 5px;
+}
 
-} */
+
 
 #navSide{
     display :   flex;
     justify-content: space-between;
     margin-top: 10px;
-   
-
 }
 
 
@@ -72,13 +71,13 @@
     margin: 0 10px;
 }
 
-/* #navSide #search {
-   
-} */
+.row img{
+    cursor: pointer;
+}
 .mic{
     border-radius: 50%;
     background-color: gainsboro;
-    /* margin-left: 10px ; */
+    cursor: pointer;
 }
 
 .mic img{
@@ -86,21 +85,45 @@
     height: 30px;
 }
 
+.maindot{
+    padding-left: 18rem !important;
+}
 
+
+.dot{
+    cursor: pointer;
+    border-radius: 50%;
+    padding-top: 6.5px;
+    padding-left: 1px;
+    width: 45px;
+    height: 45px;
+}
+
+.dot:hover{
+    background-color: #f1f1f1 ;
+}
 
 .identify{
     border-radius: 50%;
     color: white;
     background-color: navy;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     text-align: center;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.identify:hover{
+    background-color: skyblue;
 }
 
 
 
 .identify p{
+    padding-top: 3.5px;
     font-size: larger;
+    font-weight: bolder;
 }
 
 .row1{
@@ -110,6 +133,10 @@
     background-color: white;
     z-index: 1;
     text-align: center;
+}
+
+.row1 a:hover{
+    background-color: #f1f1f1;
 }
 
 .row1 a{
@@ -123,35 +150,79 @@
 
 .row2{
     width: 100vw;
-    height: 3vw;
-    /* border-bottom: 0.5px solid rgb(0, 0, 0);
-    border-top: 0.5px solid rgb(0, 0, 0); */
+    height: 8vh;
     background-color: rgb(247, 245, 245);
 }
 
 .tab1{
     width: auto;
     height: 4vh;
-    background-color: gray;
-    border: solid 0.5px rgb(117, 117, 117);
+    border: solid 0.5px #cacaca;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #808080);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    cursor: pointer;
+}
+
+.tab1:hover{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .tab2 {
     width: auto;
     height: 4vh;
     background-color: rgb(228, 227, 227);
-    /* border: solid 0.2px rgb(207, 205, 205) */
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    cursor: pointer;
 }
+.tab2:hover{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    .row2{
+        height: 14vh;
+    }
+
+    .tab1{
+        padding:2px;
+        height: 3vh;
+        font-size: smaller;
+    }
+    .tab2{
+        padding:2px;
+        height: 3vh;
+        font-size: smaller;
+    }
+}
+
 
 .col2row2{
     margin-left: 2rem;
 }
 .card{
     border: none;
+    width: 410px;
 }
+
+.card:hover{
+    background-color: rgb(228, 227, 227) ;
+}
+
 .card-group{
-    margin-right: 1rem;
+    margin: 10px !important;;
 }
+
+.card-body{
+    padding: 0 !important;
+}
+
 .col2row3{
     margin-left: 0.5rem;
 }
@@ -161,3 +232,62 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: rgba(49, 49, 78, 0.356);
+    }
+    .col2row2{
+        margin-left: 0rem;
+    }
+
+    iframe{
+        width: 180px;
+        height: 180px;
+    }
+    .row1{
+        display: none;
+    }
+    .maindot{
+        padding-left: 1rem !important;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgba(128, 128, 0, 0.13);
+    }
+    .row1{
+        display: none;
+    }
+    .row2{
+        width: 92%;
+        height: 20vh;
+        margin-left: 20px;
+    }
+
+    .tab1{
+        padding:2px;
+        height: 3vh;
+        font-size: smaller;
+    }
+    .tab2{
+        padding:2px;
+        height: 3vh;
+        font-size: smaller;
+    }
+    .maindot{
+        padding-left: 9rem !important;
+    }
+    .logo{
+        margin-left: 8rem !important;
+    }
+    .card{
+        flex-direction: row;
+    }
+    .card-body{
+        padding: 10px !important;
+    }
+  }
+
