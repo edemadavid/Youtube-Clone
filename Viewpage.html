@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/Viewpagestyle.css">
+
+    <link rel="shortcut icon" href="/Images/logo.ico" type="image/x-icon">
+   
+    <script src="https://kit.fontawesome.com/cfbd0c9f49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+</head>
+<body>
+
+    <div class="row" id="navSide">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#"><i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp; Home</a>
+                <a href="#"><i class="fas fa-compass"></i> &nbsp;&nbsp;&nbsp; Explore</a>
+                <a href="#"><i class="fas fa-box-open"></i> &nbsp;&nbsp;&nbsp; Subcriptions</a>
+                <hr>
+                <a href="#"><i class="fas fa-book-open"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <a href="#"><i class="fas fa-history"></i> &nbsp;&nbsp;&nbsp; History</a>
+                <a href="#"><i class="far fa-play-circle"></i> &nbsp;&nbsp;&nbsp; Your Videos</a>
+                <a href="#"><i class="far fa-clock"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <a href="#"><i class="far fa-thumbs-up"></i> &nbsp;&nbsp;&nbsp; Library</a>
+                <hr>
+                <p class="ml-3 font-weight-bold">Subscription</p>
+                <hr>
+                <a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;&nbsp; Settings</a>
+                <a href="#"><i class="fas fa-flag"></i> &nbsp;&nbsp;&nbsp; Report History</a>
+                <a href="#"><i class="far fa-question-circle"></i> &nbsp;&nbsp;&nbsp; Help</a>
+                <a href="#"><i class="far fa-comment-alt"></i> &nbsp;&nbsp;&nbsp; Send Feedback</a>
+            </div>
+
+            <span onclick="openNav()" class="sidemenu"> &#9776 </span>
+            <img class="logo" src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto"> 
+
+        </div>
+        
+        <div class="input-group mb-3 col-md-6 col-lg-5 my-2 d-md-inline-flex">
+            <input type="text" class="form-control rounded-0" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary rounded-0" type="button" id="button-addon2">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+            <div class="mic ml-2">
+                <img src="/SVG/microphone.svg" alt=""  width="20px" >
+            </div>
+        </div>
+
+        <div class="maindot col-6 col-sm-7 col-md-3 col-lg-2 d-inline-flex my-lg-2 my-md-2 mx-lg-5">
+            <div class="dot">
+                <img src="/SVG/camera-retro.svg" alt="" width="20px" >
+            </div>
+            <div class="dot">
+                <img src="/SVG/ninedots.svg" alt=""  width="20px" >
+            </div>
+
+            <div class="dot">
+                <img src="/SVG/bell.svg" alt=""  width="20px" >
+            </div>
+
+            <div class="identify">
+            <p>d</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contain">
+        <div class="row">
+            <div class="col colLeft col-lg-9">
+
+                
+                <div class="card">
+                    <iframe src="https://www.youtube.com/embed/sCeiwVEjhx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                
+
+                <div class="row"> <div class="col sub col-lg-6" ></div> <div class="col com col-lg-6"></div> </div>
+
+
+            </div>
+            
+            
+            <div class="col colRight col-lg-3">
+                <img class="ad1" src="/Images/ViewpagePics1.jpg" alt="Ad" srcset="">
+                <div class="row">
+                    <div class="ad2 col col-2"><img src="/Images/ViewpagePics2.jpg" alt="ad2" "></div>
+                    <div class="col col-6 adpart">
+                        <div class="adText mb-0">Courses on sale</div>
+                        <div class="spen rounded d-inline-flex">Ad</div> Udemy.com
+                    </div>
+                    <div class="col col-4"><div class="btn btn-primary rounded-0 mt-3">Shop Now</div> </div>
+        
+                </div>
+                <hr>
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="/js/myscript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
