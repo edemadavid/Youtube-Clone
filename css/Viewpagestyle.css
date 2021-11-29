@@ -81,6 +81,7 @@ button{
     padding-bottom: 9px;
 }
 
+
 .row img{
     cursor: pointer;
 }
@@ -150,12 +151,22 @@ button{
 
 .colLeft .card{
     width: 100%;
-    height: 80vh
+    height: 80vh;
+    border: none;
 }
 
 .colLeft .card iframe{
     width: 100%;
     height: 100%;
+}
+
+.snip{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub {
+    font-size: 0.8rem;
 }
 
 .colRight{
@@ -195,3 +206,135 @@ border: solid 1px blue;
     margin-top: 10px;
 }
 
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+}
+
+.colRight .card{
+    border: none;
+
+}
+
+.colRight .card-title{
+    font-size: 0.8rem;
+}
+
+.colRight iframe {
+    width: 100%;
+    height: 90%;
+}
+
+@media screen and (max-width:576px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+
+
+#module {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  #module #collapseExample.collapse:not(.show) {
+    display: block;
+    height: 3rem;
+    overflow: hidden;
+  }
+  
+  #module #collapseExample.collapsing {
+    height: 3rem;
+  }
+  
+  #module a.collapsed:after {
+    content: 'Show More';
+  }
+  
+  #module a:not(.collapsed):after {
+    content: 'Show Less';
+  }
+
+
+
+
+  
+#module2 {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  #module2 #collapseExample2.collapse:not(.show) {
+    display: block;
+    height: 0rem;
+    overflow: hidden;
+  }
+  
+  #module2 #collapseExample2.collapsing {
+    height: 0rem;
+  }
+  
+  #module2 a.collapsed:after {
+    content: 'Show 4 replies';
+  }
+  
+  #module2 a:not(.collapsed):after {
+    content: 'hide 4 replies';
+  }
+
+
+  
+#module3 {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  #module3 #collapseExample2.collapse:not(.show) {
+    display: block;
+    height: 0rem;
+    overflow: hidden;
+  }
+  
+  #module3 #collapseExample2.collapsing {
+    height: 0rem;
+  }
+  
+  #module3 a.collapsed:after {
+    content: 'Show 3 replies';
+  }
+  
+  #module3 a:not(.collapsed):after {
+    content: 'hide 3 replies';
+  }
+
+
+  #module4 {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  #module4 #collapseExample4.collapse:not(.show) {
+    display: block;
+    height: 0rem;
+    overflow: hidden;
+  }
+  
+  #module4 #collapseExample4.collapsing {
+    height: 0rem;
+  }
+  
+  #module4 a.collapsed:after {
+    content: 'Show 10 replies';
+  }
+  
+  #module4 a:not(.collapsed):after {
+    content: 'hide 10 replies';
+  }
