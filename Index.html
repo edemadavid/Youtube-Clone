@@ -11,66 +11,97 @@
     <link rel="shortcut icon" href="/Images/logo.ico" type="image/x-icon">
    
     <script src="https://kit.fontawesome.com/cfbd0c9f49.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
     <title>YouTube</title>
 </head>
 <body>
 
-    <div class="row" id="navSide">
-        <div class="col-xs-12 col-lg-2">
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#"><i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp; Home</a>
-                <a href="#"><i class="fas fa-compass"></i> &nbsp;&nbsp;&nbsp; Explore</a>
-                <a href="PremiumPage.html"><i class="fas fa-box-open"></i> &nbsp;&nbsp;&nbsp; Subcriptions</a>
-                <hr>
-                <a href="#"><i class="fas fa-book-open"></i> &nbsp;&nbsp;&nbsp; Library</a>
-                <a href="#"><i class="fas fa-history"></i> &nbsp;&nbsp;&nbsp; History</a>
-                <a href="#"><i class="far fa-play-circle"></i> &nbsp;&nbsp;&nbsp; Your Videos</a>
-                <a href="#"><i class="far fa-clock"></i> &nbsp;&nbsp;&nbsp; Library</a>
-                <a href="#"><i class="far fa-thumbs-up"></i> &nbsp;&nbsp;&nbsp; Library</a>
-                <hr>
-                <p class="ml-3 font-weight-bold">Subscription</p>
-                <hr>
-                <a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;&nbsp; Settings</a>
-                <a href="#"><i class="fas fa-flag"></i> &nbsp;&nbsp;&nbsp; Report History</a>
-                <a href="#"><i class="far fa-question-circle"></i> &nbsp;&nbsp;&nbsp; Help</a>
-                <a href="#"><i class="far fa-comment-alt"></i> &nbsp;&nbsp;&nbsp; Send Feedback</a>
-            </div>
-
-            <span onclick="openNav()" class="sidemenu"> &#9776 </span>
-            <img class="logo" src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto"> 
-
+  <div class="row sticky-top bg-white" id="navSide">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              <div class="d-inline-flex stick-top">
+                &#9776<img class="logo mt-3" src="/Images/logo2.png" alt="SiteLogo" width="120px" height="30px">
+              </div> 
+            </a>
+            <a href="Index.html"><i class="fas fa-home"></i> &nbsp;&nbsp;&nbsp; Home</a>
+            <a href="#"><i class="fas fa-compass"></i> &nbsp;&nbsp;&nbsp; Explore</a>
+            <a href="#"><i class="fas fa-box-open"></i> &nbsp;&nbsp;&nbsp; Subcriptions</a>
+            <hr>
+            <a href="#"><i class="fas fa-book-open"></i> &nbsp;&nbsp;&nbsp; Library</a>
+            <a href="#"><i class="fas fa-history"></i> &nbsp;&nbsp;&nbsp; History</a>
+            <a href="Viewpage.html"><i class="far fa-clock"></i> &nbsp;&nbsp;&nbsp; Watch later</a>
+            <a href="#"><i class="far fa-thumbs-up"></i> &nbsp;&nbsp;&nbsp; Liked Videos</a>
+            <hr>
+            <p class="ml-3 font-weight-bold">Subscription</p>
+            <a href="#"><i class="fas fa-satellite-dish"></i> &nbsp;&nbsp;&nbsp; Live</a>
+            <a href="#"><i class="fas fa-trophy"></i> &nbsp;&nbsp;&nbsp; Sport</a>
+            <a href="GamingPage.html"><i class="fas fa-gamepad"></i> &nbsp;&nbsp;&nbsp; Gaming</a>
+            <a href="#"><i class="far fa-newspaper"></i> &nbsp;&nbsp;&nbsp; News</a>
+            <hr>
+            <p class="ml-3 font-weight-bold">More From YouTube</p>
+            <a href="PremiumPage.html"><i class="fas fa-cog"></i> &nbsp;&nbsp;&nbsp; Youtube Premium</a>
+            <a href="GamingPage.html"><i class="fas fa-gamepad"></i> &nbsp;&nbsp;&nbsp; Gaming</a>
+            <a href="#"><i class="fas fa-satellite-dish"></i> &nbsp;&nbsp;&nbsp; Live</a>
+            <a href="#"><i class="fas fa-trophy"></i> &nbsp;&nbsp;&nbsp; Sport</a>
+            <hr>
+            <a href="#"><i class="fas fa-cog"></i> &nbsp;&nbsp;&nbsp; Settings</a>
+            <a href="#"><i class="fas fa-flag"></i> &nbsp;&nbsp;&nbsp; Report History</a>
+            <a href="#"><i class="far fa-question-circle"></i> &nbsp;&nbsp;&nbsp; Help</a>
+            <a href="#"><i class="far fa-comment-alt"></i> &nbsp;&nbsp;&nbsp; Send Feedback</a>
+            <hr>
+            <p class="pl-2">About Press Copyright <br>
+              Contact us Creator Advertise<br>
+              Developers
+            </p>
+            <p class="pl-2">Terms Privacy Policy & Safety <br>
+              How YouTube works <br>
+              Test new features
+            </p>
         </div>
-        
-        <div class="input-group mb-3 col-xs-12 col-lg-5 my-2">
-            <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary rounded" type="button" id="button-addon2">Search</button>
-            </div>
-            <div class="mic ml-2">
-                <img src="/SVG/microphone.svg" alt=""  width="20px" >
-            </div>
-        </div>
 
-        <div class="maindot col-sm-12 col-lg-4 d-inline-flex my-2 mr-auto mx-lg-5">
-            <div class="dot">
-                <img src="/SVG/camera-retro.svg" alt="" width="20px" >
-            </div>
-            <div class="dot">
-                <img src="/SVG/ninedots.svg" alt=""  width="20px" >
-            </div>
+        <span onclick="openNav()" class="sidemenu">&#9776</span>
+        <a href="Index.html">
+          <img class="logo" src="/Images/logo2.png" alt="SiteLogo" width="100px" height="auto">
+        </a>
+      
 
-            <div class="dot">
-                <img src="/SVG/bell.svg" alt=""  width="20px" >
-            </div>
-
-            <div class="identify">
-            <p>D</p>
-            </div>
-        </div>
-    
-        
     </div>
+    
+    <div class="input-group mb-3 col-md-6 col-lg-5 my-2 d-md-inline-flex sticky-top">
+        <input type="text" class="form-control rounded-0" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary rounded-0" type="button" id="button-addon2">
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+        <div class="mic ml-2">
+            <img src="/SVG/microphone.svg" alt=""  width="20px" >
+        </div>
+    </div>
+
+    <div class="maindot col-6 col-sm-7 col-md-3 col-lg-2 d-inline-flex my-lg-2 my-md-2 mx-lg-5 sticky-top">
+        <div class="dot">
+            <img src="/SVG/camera-retro.svg" alt="" width="20px" >
+        </div>
+        <div class="dot">
+            <img src="/SVG/ninedots.svg" alt=""  width="20px" >
+        </div>
+
+        <div class="dot">
+            <img src="/SVG/bell.svg" alt=""  width="20px" >
+        </div>
+
+        <div class="identify">
+        <p>d</p>
+        </div>
+    </div>
+
+</div>
    
 
     <div id="main">
@@ -84,75 +115,35 @@
                     <a href="#"><i class="fas fa-box-open fa-2x pt-2"></i>Subcriptions</a>
                     <a href="#"><i class="fas fa-book-open fa-2x pt-2"></i>Library</a>
                 </div>
-                <hr>
+
                 <div class="row">
-                    <div class="row row2 pl-5 d-inline-flex">
-                        <div class="rounded-pill tab1 active p-lg-2 m-1 my-auto">All</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Computer Programming</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Walex Bix Nig</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Chill-out mucic</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Text</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Web pages</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Comedies</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
-                        <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
-                    </div>
+
+                  <div class="row row2 pl-5 d-inline-flex">
+                      <div class="rounded-pill tab1 active p-lg-2 m-1 my-auto">All</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Computer Programming</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Walex Bix Nig</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Chill-out mucic</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Text</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Web pages</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Comedies</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Live</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Playlist</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Graphic design</div>
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Lo-fi</div> 
+                      <div class="tab2 rounded-pill p-lg-2 m-1 my-auto">Thrillers</div>
+                  </div>
+                  <!-- end of scrolling row -->
 
 
-                    <div class="row col2row2">
-                      
-                        <div class="card-group col-lg-12">
-                            <div class="card mr-4 col-md-6 pt-sm-2">
-                                <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Vue.Js Documentary</h5>
-                                <p class="card-text">Honeypot</p>
-                                <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
-                              </div>
-                            </div>
-
-                            <div class="card mr-3 ml-2 col-md-6 pt-sm-2">
-                              <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">GraphQL: The Documentary</h5>
-                                <p class="card-text">Honeypot</p>
-                                <p class="card-text"><small class="text-muted">2M View - 5 years ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card mr-3 ml-2 col-md-6">
-                              <iframe width="390" height="300" src="https://www.youtube.com/embed/5Q2Pc-e-8Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">2-HOUR STUDY WITH ME🌦️</h5>
-                                <p class="card-text">Abao in Tokyo</p>
-                                <p class="card-text"><small class="text-muted">15M Views - 2 years ago</small></p>
-                              </div>
-                            </div>
-                            <div class="card ml-2 col-md-6">
-                              <iframe width="390" height="300" src="https://www.youtube.com/embed/hggEf-a_elg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                              <div class="card-body">
-                                <h5 class="card-title">Chill Lo-Fi Homer Hip-Hop Beats Mix Free Lo Fi Hip Hop Music Mix</h5>
-                                <p class="card-text">McFly Beatsp</p>
-                                <p class="card-text"><small class="text-muted">12M Views - 3 years Ago</small></p>
-                              </div>
-                            </div>
-                        </div>
-                          
-                    </div>    
-                    <!-- end of First video row -->
-
-
-                    <div class="row col2row2">
-                      
+                  <div class="row col2row2">
+                    
                       <div class="card-group col-lg-12">
                           <div class="card mr-4 col-md-6 pt-sm-2">
                               <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -163,7 +154,7 @@
                             </div>
                           </div>
 
-                          <div class="card mr-3 ml-2 col-md-6">
+                          <div class="card mr-3 ml-2 col-md-6 pt-sm-2">
                             <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             <div class="card-body">
                               <h5 class="card-title">GraphQL: The Documentary</h5>
@@ -190,9 +181,92 @@
                       </div>
                         
                   </div>    
+                  <!-- end of First video row -->
+
+
+                  <div class="row col2row2">
+                    
+                    <div class="card-group col-lg-12">
+                        <div class="card mr-4 col-md-6 pt-sm-2">
+                            <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">Vue.Js Documentary</h5>
+                            <p class="card-text">Honeypot</p>
+                            <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                          </div>
+                        </div>
+
+                        <div class="card mr-3 ml-2 col-md-6">
+                          <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">GraphQL: The Documentary</h5>
+                            <p class="card-text">Honeypot</p>
+                            <p class="card-text"><small class="text-muted">2M View - 5 years ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card mr-3 ml-2 col-md-6">
+                          <iframe width="390" height="300" src="https://www.youtube.com/embed/5Q2Pc-e-8Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">2-HOUR STUDY WITH ME🌦️</h5>
+                            <p class="card-text">Abao in Tokyo</p>
+                            <p class="card-text"><small class="text-muted">15M Views - 2 years ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card ml-2 col-md-6">
+                          <iframe width="390" height="300" src="https://www.youtube.com/embed/hggEf-a_elg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">Chill Lo-Fi Homer Hip-Hop Beats Mix Free Lo Fi Hip Hop Music Mix</h5>
+                            <p class="card-text">McFly Beatsp</p>
+                            <p class="card-text"><small class="text-muted">12M Views - 3 years Ago</small></p>
+                          </div>
+                        </div>
+                    </div>
+                      
+                  </div>    
                   <!-- end of Second row  -->
 
 
+
+                  <div class="row col2row2">
+                    
+                  <div class="card-group col-lg-12">
+                      <div class="card mr-4 col-md-6 pt-sm-2">
+                          <iframe width="390" height="300" src="https://www.youtube.com/embed/OrxmtDw4pVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">Vue.Js Documentary</h5>
+                          <p class="card-text">Honeypot</p>
+                          <p class="card-text"><small class="text-muted">20M View 20mins ago</small></p>
+                        </div>
+                      </div>
+
+                      <div class="card mr-3 ml-2 col-md-6">
+                        <iframe width="390" height="295" src="https://www.youtube.com/embed/783ccP__No8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">GraphQL: The Documentary</h5>
+                          <p class="card-text">Honeypot</p>
+                          <p class="card-text"><small class="text-muted">2M View - 5 years ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card mr-3 ml-2 col-md-6">
+                        <iframe width="390" height="300" src="https://www.youtube.com/embed/5Q2Pc-e-8Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">2-HOUR STUDY WITH ME🌦️</h5>
+                          <p class="card-text">Abao in Tokyo</p>
+                          <p class="card-text"><small class="text-muted">15M Views - 2 years ago</small></p>
+                        </div>
+                      </div>
+                      <div class="card ml-2 col-md-6">
+                        <iframe width="390" height="300" src="https://www.youtube.com/embed/hggEf-a_elg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">Chill Lo-Fi Homer Hip-Hop Beats Mix Free Lo Fi Hip Hop Music Mix</h5>
+                          <p class="card-text">McFly Beatsp</p>
+                          <p class="card-text"><small class="text-muted">12M Views - 3 years Ago</small></p>
+                        </div>
+                      </div>
+                  </div>
+                    
+                  </div>    
+                  <!-- end of third row -->
                
 
                 </div>

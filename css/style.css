@@ -9,9 +9,9 @@
     padding: 10px;
 }
 
-/* span{
+span{
     margin-top: 1rem;
-} */
+}
 
 .sidenav{
     height: 100%;
@@ -52,14 +52,11 @@
     padding: 5px;
 }
 
-
-
 #navSide{
     display :   flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-
 
 .sidemenu{
     margin-left: 1rem;
@@ -71,13 +68,23 @@
     margin: 0 10px;
 }
 
+button{
+    width: 6rem;
+}
+
+.logo{
+    padding-bottom: 9px;
+}
+
+
 .row img{
     cursor: pointer;
 }
 .mic{
-    border-radius: 50%;
-    background-color: gainsboro;
     cursor: pointer;
+    margin-left: 1rem !important;
+    border-radius: 50%;
+    background-color: ghostwhite;
 }
 
 .mic img{
@@ -86,9 +93,9 @@
 }
 
 .maindot{
-    padding-left: 18rem !important;
+    display: flex;
+    justify-content: space-around;
 }
-
 
 .dot{
     cursor: pointer;
@@ -106,25 +113,31 @@
 .identify{
     border-radius: 50%;
     color: white;
-    background-color: navy;
-    width: 45px;
-    height: 45px;
+    background-color: purple;
+    width: 40px;
+    height: 40px;
     text-align: center;
     cursor: pointer;
     margin-top: 1px;
+    padding-right: 4px;
 }
 
 .identify:hover{
-    background-color: skyblue;
+    background-color: rgb(7, 7, 177);
 }
 
-
-
 .identify p{
-    padding-top: 3.5px;
+    padding-top: 4.5px;
     font-size: larger;
     font-weight: bolder;
 }
+
+.stick-top{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 
 .row1{
     border-right: 2px solid white;
@@ -151,7 +164,7 @@
 .row2{
     width: 100vw;
     height: 8vh;
-    background-color: rgb(247, 245, 245);
+    /* background-color: rgb(247, 245, 245); */
 }
 
 .tab1{
@@ -159,8 +172,8 @@
     height: 4vh;
     border: solid 0.5px #cacaca;
     border-radius: 50px;
-    background: linear-gradient(145deg, #f0f0f0, #808080);
-    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    /* background: linear-gradient(145deg, #f0f0f0, #808080);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
     cursor: pointer;
 }
 
@@ -175,8 +188,8 @@
     height: 4vh;
     background-color: rgb(228, 227, 227);
     border-radius: 50px;
-    background: linear-gradient(145deg, #f0f0f0, #cacaca);
-    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    /* background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff; */
     cursor: pointer;
 }
 .tab2:hover{
@@ -251,10 +264,10 @@
     .maindot{
         padding-left: 1rem !important;
     }
-  }
+}
   
   /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
       background-color: rgba(128, 128, 0, 0.13);
     }
@@ -289,5 +302,5 @@
     .card-body{
         padding: 10px !important;
     }
-  }
+}
 

@@ -74,15 +74,23 @@ span{
     margin: 0 10px;
 }
 
+button{
+    width: 6rem;
+}
+
+.logo{
+    padding-bottom: 9px;
+}
+
 
 .row img{
     cursor: pointer;
 }
 .mic{
-    border-radius: 50%;
-    background-color: gainsboro;
     cursor: pointer;
     margin-left: 1rem !important;
+    border-radius: 50%;
+    background-color: ghostwhite;
 }
 
 .mic img{
@@ -111,22 +119,29 @@ span{
 .identify{
     border-radius: 50%;
     color: white;
-    background-color: navy;
-    width: 45px;
-    height: 45px;
+    background-color: purple;
+    width: 40px;
+    height: 40px;
     text-align: center;
     cursor: pointer;
     margin-top: 1px;
+    padding-right: 4px;
 }
 
 .identify:hover{
-    background-color: skyblue;
+    background-color: rgb(7, 7, 177);
 }
 
 .identify p{
-    padding-top: 3.5px;
+    padding-top: 4.5px;
     font-size: larger;
     font-weight: bolder;
+}
+
+.stick-top{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
 /* ====================== End of Styles for the Nav Bar */
@@ -145,6 +160,9 @@ span{
     font-weight: 300;
     font-family: 'Barlow', sans-serif;
     font-family: 'Roboto', sans-serif;
+}
+.row2 button{
+    width: auto;
 }
 
 .row2 .text2{

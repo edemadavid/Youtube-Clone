@@ -1,0 +1,292 @@
+
+
+
+
+
+
+
+
+
+/*============================ Start of Nav Bar */
+#nav{
+    display: inline-flex;
+    padding: 10px;
+}
+
+span{
+    margin-top: 1rem;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 1s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    transition: 0.5ms;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#navSide{
+    transition: margin-left .5s;
+    padding: 5px;
+}
+
+#navSide{
+    display :   flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sidemenu{
+    margin-left: 1rem;
+    font-size: 25px; 
+    cursor: pointer
+}
+
+#navSide img{
+    margin: 0 10px;
+}
+
+button{
+    width: 6rem;
+}
+
+.logo{
+    padding-bottom: 9px;
+}
+
+
+.row img{
+    cursor: pointer;
+}
+.mic{
+    cursor: pointer;
+    margin-left: 1rem !important;
+    border-radius: 50%;
+    background-color: ghostwhite;
+}
+
+.mic img{
+    padding-top: 0.5rem;
+    height: 30px;
+}
+
+.maindot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dot{
+    cursor: pointer;
+    border-radius: 50%;
+    padding-top: 6.5px;
+    padding-left: 1px;
+    width: 45px;
+    height: 45px;
+}
+
+.dot:hover{
+    background-color: #f1f1f1 ;
+}
+
+.identify{
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1px;
+    padding-right: 4px;
+}
+
+.identify:hover{
+    background-color: rgb(7, 7, 177);
+}
+
+.identify p{
+    padding-top: 4.5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.stick-top{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* ==================================================== End of Nav Bar */
+
+
+
+.row1{
+    border-right: 2px solid white;
+    height: 40vh;
+    width: 6rem;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.row1 a:hover{
+    background-color: #f1f1f1;
+}
+
+.row1 a{
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    font-size: 0.8rem !important;
+}
+
+
+
+
+
+/* #video-carousel-example2{
+    height: 50vh;
+    width: 100vw;
+} */
+
+
+
+.carousel {
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+
+    
+}
+
+#welcomeCarousel{
+    width: 93vw;
+     
+}
+
+.carousel-caption{
+    bottom: 3rem;
+    z-index: 10;
+    position: absolute;
+    left: 5%;
+}
+
+.carousel-caption h1{
+    font-size: 4rem; 
+    text-shadow: 2px 2px #000000;
+}
+
+.carousel-caption p{
+    font-size: 2rem;  
+    text-shadow: 2px 2px #000000; 
+}
+
+.carousel-item {
+    height: 32rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+
+#myVideo{
+    filter: blur(2.1px);
+    /* object-fit: cover !important;
+    overflow: hidden !important;
+    object-fit: fill !important; */
+}
+
+.carousel-indicators{
+    margin-left: 40vw !important;
+    margin-bottom: 5vh;
+}
+.carousel-indicators img{
+    height: 3rem;
+}
+
+.row2col2 {
+    background-color:rgb(241, 241, 241) ;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 32px !important;
+    
+}
+
+.row2col2 img{
+    width: 7rem;
+    height: 7rem;
+}
+
+.Subscribe{
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.rowcol2{
+    background-color: rgb(224, 224, 224);
+    padding-top: 3rem;
+    margin-left: 32px !important;
+    height: 100px;
+}
+
+.row3col2{
+    background-color: rgb(224, 224, 224);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 32px !important;
+    height: auto;
+}
+
+.row3col2 .card {
+    height: 530px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+
+.row4col2{
+    background-color: rgb(224, 224, 224);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 32px !important;
+    height: auto;
+}
+
+.row4col2 .card {
+    height: 280px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+
+.row4col2 .card-title{
+    font-size: 1rem;
+    font-weight: 700;
+}
